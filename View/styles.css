@@ -1,0 +1,136 @@
+@font-face {
+	font-family: 'Roboto';
+	src: url(_bootstrap/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url(_bootstrap/fonts/Futura/futura%20medium%20bt.ttf);
+}
+
+@font-face {
+    font-family: 'VTF-Justina';
+    src: url(_bootstrap/fonts/VTF%20Justina/VTFJustinaGEO-Regular.otf);
+}
+
+.main-header {
+    background-color: #202020;
+    color: #fff;
+    padding-bottom: 8rem;
+    font-family: 'Roboto';
+}
+
+.page-header{
+    color: #fff;
+    padding-top : 8rem;
+    font-family: 'Futura';
+}
+
+.lang-select, .lang-select:hover, .lang-select:active, .lang-select:focus{
+    color: #fff;
+    background-color: #212121;
+    border-color: #212121;
+    lighting-color: #212121;
+    margin: 1rem;
+    font-family: 'Roboto';
+}
+
+.label-select {
+    color: #fff;
+    font-family: 'Roboto';
+    margin: 1rem;
+    margin-right: -0.6rem;
+    padding-top: 0.1rem;
+}
+
+img {
+    height:20px;
+    width:30px;
+    display: inline;
+}
+
+.form-container {
+    padding-top: 3rem;
+    color: #fff
+}
+
+.bg-darker {
+    background-color: #212121;
+    border-color: #212121;
+}
+
+.bg-darker:focus {
+    background-color: #212121;
+}
+
+.bg-even-darker {
+    background-color: #151515;
+    color: #fff;
+}
+
+.label-1 {
+    margin-bottom: -1rem;
+}
+
+.form-control {
+    margin-bottom: 0.4rem;
+}
+
+.sbm-btn {
+    padding-top: 0.5rem;
+}
+
+.modal-body, .modal-header, .modal-footer, .modal-dialog, .modal-content{
+    color: #fff;
+    border-color: #212121;
+    background-color: #212121 !important;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.close, .close:hover, .close:focus, .close:active{
+    color:#fff;
+    border-color: #fff;
+    background-color: #212121;
+    opacity: 1;
+    text-decoration: none;
+    outline: none;
+}
+
+a.stext-SSL {
+    font-weight: 600;
+    color: #FFF !important;
+    text-shadow: #F400DF 1px 0 2px !important;
+}
+a.stext-GC {
+    color: #FD315B !important;
+}
+a.stext-C {
+    color: #9c7bd1 !important;
+}
+a.stext-D {
+    color: #47a8fc !important;
+}
+a.stext-PL {
+    color: #81bcd5 !important;
+}
+a.stext-G {
+    color: #FBE23A !important;
+}
+a.stext-S {
+    color: #959595 !important;
+}
+a.stext-B {
+    color: #E39644 !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
